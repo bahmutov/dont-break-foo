@@ -1,0 +1,20 @@
+{
+  "name": "dont-break-foo",
+  "version": "1.0.0",
+  "description": "Test project for verifying dont-break tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Write more tests!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/dont-break-foo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/dont-break-foo/issues"
+  },
+  "homepage": "https://github.com/bahmutov/dont-break-foo#readme"
+}
