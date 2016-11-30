@@ -4,7 +4,7 @@
 > [dont-break](https://github.com/bahmutov/dont-break) tool
 
 [![Build status][ci-image] ][ci-url]
-[![npm][npm-image]](npm-url)
+[![npm][npm-image]][npm-url]
 
 [npm-icon]: https://nodei.co/npm/dont-break-foo.svg
 [npm-url]: https://npmjs.org/package/dont-break-foo
