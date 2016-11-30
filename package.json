@@ -1,6 +1,7 @@
 {
   "name": "dont-break-foo",
   "description": "Test project for verifying dont-break tool",
+  "version": "0.0.0-semantic-release",
   "main": "index.js",
   "scripts": {
     "test": "echo Write more tests!",
