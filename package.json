@@ -1,14 +1,14 @@
 {
   "name": "dont-break-foo",
-  "version": "1.0.0",
   "description": "Test project for verifying dont-break tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo Write more tests!"
+    "test": "echo Write more tests!",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bahmutov/dont-break-foo.git"
+    "url": "https://github.com/bahmutov/dont-break-foo.git"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bahmutov/dont-break-foo/issues"
   },
-  "homepage": "https://github.com/bahmutov/dont-break-foo#readme"
+  "homepage": "https://github.com/bahmutov/dont-break-foo#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  }
 }
