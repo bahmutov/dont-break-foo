@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/bahmutov/dont-break-foo.git"
   },
-  "keywords": [],
+  "keywords": ["dont-break"],
   "author": "",
   "license": "ISC",
   "bugs": {

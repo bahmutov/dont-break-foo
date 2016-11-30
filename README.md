@@ -13,7 +13,7 @@
 
 ### Small print
 
-Author: Gleb Bahmutov &copy; 2014
+Author: Gleb Bahmutov &copy; 2016
 
 * [@bahmutov](https://twitter.com/bahmutov)
 * [glebbahmutov.com](http://glebbahmutov.com)
