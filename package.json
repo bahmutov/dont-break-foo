@@ -7,13 +7,15 @@
     "test": "echo Write more tests!",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "dont-break": "DEBUG=dont-break,npm-utils dont-break",
-    "dont-crack": "semantic-release pre --debug=true --verify-release=./misc/dont-crack.js"
+    "dont-crack": "DEBUG=dont-crack semantic-release pre --debug=true --verify-release=./misc/dont-crack.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/bahmutov/dont-break-foo.git"
   },
-  "keywords": ["dont-break"],
+  "keywords": [
+    "dont-break"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/bahmutov/dont-break-foo#readme",
   "devDependencies": {
+    "debug": "^2.4.5",
     "semantic-release": "^6.3.2"
   }
 }
