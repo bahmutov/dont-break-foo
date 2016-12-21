@@ -29,5 +29,8 @@
     "dont-break": "^1.3.0",
     "lazy-ass": "^1.5.0",
     "semantic-release": "^6.3.2"
+  },
+  "release": {
+    "verifyRelease": "./misc/dont-crack.js"
   }
 }
