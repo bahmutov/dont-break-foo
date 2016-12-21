@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo Write more tests!",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "dont-break": "DEBUG=dont-break,npm-utils dont-break"
+    "dont-break": "DEBUG=dont-break,npm-utils dont-break",
+    "dont-crack": "semantic-release pre --debug=true --verify-release=./misc/dont-crack.js"
   },
   "repository": {
     "type": "git",
