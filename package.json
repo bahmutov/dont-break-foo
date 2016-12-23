@@ -7,7 +7,7 @@
     "test": "echo Write more tests!",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "dont-break": "DEBUG=dont-break,npm-utils dont-break",
-    "dont-crack": "DEBUG=dont-crack semantic-release pre --debug=true"
+    "dont-crack": "DEBUG=dont-crack,dont-break semantic-release pre --debug=true"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,11 @@
     "semantic-release": "^6.3.2"
   },
   "release": {
-    "verifyRelease": "dont-crack"
+    "verifyRelease": {
+      "path": "dont-crack",
+      "test-against": [
+        "https://github.com/bahmutov/dont-break-bar"
+      ]
+    }
   }
 }
