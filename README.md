@@ -11,6 +11,9 @@
 [ci-image]: https://travis-ci.org/bahmutov/dont-break-foo.svg?branch=master
 [ci-url]: https://travis-ci.org/bahmutov/dont-break-foo
 
+Also this module is used to check
+[dont-crack](https://github.com/bahmutov/dont-crack) plugin.
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2016

@@ -7,7 +7,7 @@
     "test": "echo Write more tests!",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "dont-break": "DEBUG=dont-break,npm-utils dont-break",
-    "dont-crack": "DEBUG=dont-crack semantic-release pre --debug=true --verify-release=./misc/dont-crack.js"
+    "dont-crack": "DEBUG=dont-crack semantic-release pre --debug=true"
   },
   "repository": {
     "type": "git",
@@ -27,10 +27,11 @@
     "check-more-types": "^2.23.0",
     "debug": "^2.4.5",
     "dont-break": "^1.3.0",
+    "dont-crack": "1.0.0",
     "lazy-ass": "^1.5.0",
     "semantic-release": "^6.3.2"
   },
   "release": {
-    "verifyRelease": "./misc/dont-crack.js"
+    "verifyRelease": "dont-crack"
   }
 }
